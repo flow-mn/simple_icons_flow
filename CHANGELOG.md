@@ -1,3 +1,9 @@
+## 16.20.0 (flow-mn fork)
+
+Fork of `simple_icons` 16.20.0 (upstream by jlnrrg), renamed to `simple_icons_flow`
+and patched for Flutter's `final IconData` (`SimpleIconData` subclass is now a
+function). Icon set unchanged from upstream.
+
 ## [16.20.0] - auto_generated update
 
 ##### 1 new icon

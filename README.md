@@ -1,3 +1,10 @@
+> **flow-mn fork.** Fork of [`simple_icons`](https://github.com/jlnrrg/simple_icons)
+> by jlnrrg, republished as **`simple_icons_flow`** and patched for Flutter's
+> `final IconData` (the `SimpleIconData` subclass is now a function that builds an
+> `IconData`). Icons remain CC0-1.0 (see `LICENSE`); icon set tracks upstream 16.20.0.
+
+---
+
 
 <p align="center">
 <a href="https://simpleicons.org/">
@@ -48,7 +55,7 @@ dependencies:
 ## Usage
 
 ```dart
-import "package:simple_icons/simple_icons.dart";
+import "package:simple_icons_flow/simple_icons.dart";
 
 class MyAwesomeWidget extends StatelessWidget {
   Widget build(BuildContext context) {

@@ -1,6 +1,6 @@
 import 'package:alchemist/alchemist.dart';
 import 'package:flutter/widgets.dart';
-import 'package:simple_icons/src/icon_color.g.dart';
+import 'package:simple_icons_flow/src/icon_color.g.dart';
 
 Future<void> main() async {
   await goldenTest('Test colors',

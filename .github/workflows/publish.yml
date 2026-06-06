@@ -1,7 +1,7 @@
 name: Release
 on:
-  schedule:
-    - cron: 0 0 * * 1,2,3,4,5
+  # Schedule disabled in this fork to prevent automatic publishing.
+  # Publish is done manually via `dart pub publish`.
   workflow_dispatch:
   
 jobs: 

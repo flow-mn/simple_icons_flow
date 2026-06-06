@@ -80,8 +80,6 @@ build/
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 
-# FVM Version Cache
-.fvm/# Devenv
 .devenv*
 devenv.local.nix
 
@@ -90,3 +88,6 @@ devenv.local.nix
 
 # pre-commit
 .pre-commit-config.yaml
+
+# FVM Version Cache
+.fvm/
