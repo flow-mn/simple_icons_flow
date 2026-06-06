@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_icons_flow/simple_icons.dart';
+import 'package:simple_icons_flow/simple_icons_flow.dart';
 
 void main() {
   runApp(MyApp());

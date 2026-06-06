@@ -4,7 +4,7 @@ import 'package:alchemist/alchemist.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:simple_icons_flow/simple_icons.dart';
+import 'package:simple_icons_flow/simple_icons_flow.dart';
 
 class TestAssetBundle extends CachingAssetBundle {
   @override

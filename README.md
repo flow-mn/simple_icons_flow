@@ -55,7 +55,7 @@ dependencies:
 ## Usage
 
 ```dart
-import "package:simple_icons_flow/simple_icons.dart";
+import "package:simple_icons_flow/simple_icons_flow.dart";
 
 class MyAwesomeWidget extends StatelessWidget {
   Widget build(BuildContext context) {
