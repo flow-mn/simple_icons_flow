@@ -1,10 +1,34 @@
+## 16.23.0 (flow-mn fork)
+
+Synced with upstream `simple_icons` 16.23.0. Upstream now supports Flutter's
+`final IconData` natively (plain `const IconData(...)`), so the fork's own
+`SimpleIconData` patch is superseded; the fork only renames the package to
+`simple_icons_flow` (`fontPackage: 'simple_icons_flow'`).
+
 ## 16.20.0 (flow-mn fork)
 
 Fork of `simple_icons` 16.20.0 (upstream by jlnrrg), renamed to `simple_icons_flow`
 and patched for Flutter's `final IconData` (`SimpleIconData` subclass is now a
 function). Icon set unchanged from upstream.
 
-## [16.20.0] - auto_generated update
+## [16.23.0] - auto_generated update
+
+##### 4 new icons
+
+- Agent Skills ([#14788](https://github.com/simple-icons/simple-icons/pull/14788)) (@LitoMore)
+- M5Stack ([#14795](https://github.com/simple-icons/simple-icons/pull/14795)) (@jasonarmbrecht)
+- OpenCode ([#14694](https://github.com/simple-icons/simple-icons/pull/14694)) (@byt3m4st3r)
+- Pi ([#14797](https://github.com/simple-icons/simple-icons/pull/14797)) (@cscnk52)
+
+##### 1 updated icon
+
+- NixOS ([#14793](https://github.com/simple-icons/simple-icons/pull/14793)) (@fmbearmf)
+
+## [16.20.0] - Support for Flutter 3.44.0
+
+- Add Support for 3.44.0 after [breaking change](https://github.com/jlnrrg/simple_icons/issues/136)
+- As the package version is supposed to mimik [simple-icons](https://github.com/simple-icons/simple-icons/) version number. There is no new major version. If you have an idea, please open an issue.
+
 
 ##### 1 new icon
 
