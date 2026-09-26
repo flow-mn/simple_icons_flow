@@ -1,7 +1,7 @@
 > **flow-mn fork.** Fork of [`simple_icons`](https://github.com/jlnrrg/simple_icons)
-> by jlnrrg, republished as **`simple_icons_flow`** and patched for Flutter's
-> `final IconData` (the `SimpleIconData` subclass is now a function that builds an
-> `IconData`). Icons remain CC0-1.0 (see `LICENSE`); icon set tracks upstream 16.20.0.
+> by jlnrrg, republished as **`simple_icons_flow`** so Flow can depend on a
+> self-owned package. Icons remain CC0-1.0 (see `LICENSE`); icon set tracks
+> upstream 16.23.0.
 
 ---
 
@@ -49,7 +49,7 @@ In the `dependencies:` section of your `pubspec.yaml` add the following line:
 
 ```yaml
 dependencies:
-  simple_icons: <latest_version>
+  simple_icons_flow: <latest_version>
 ```
 
 ## Usage
